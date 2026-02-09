@@ -12,9 +12,9 @@
         <h1>Curiosidades de Tecnologia</h1>
         <p>Tudo aquilo que você quis saber sobre o mundo Tech em um unico lugar</p>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Notícias</a>
-            <a href="#">Contato</a>
+            <a href="#" onclick="clicar()">Home</a>
+            <a href="#" onclick="clicar()">Notícias</a>
+            <a href="#" onclick="clicar()">Contato</a>
         </nav>
     </header>
     <main>
@@ -111,7 +111,10 @@
         <p>Site criado por <a href="https://github.com/gustavoguanabara" target="_blank" class="externo">Gustavo Guanabara</a> para o <a href="https://www.youtube.com/@cursoemvideo " target="_blank" class="externo">CursoemVideo</a></p>
     </footer>
     <script>
-        window.alert('Espero que goste do site :) lol')
+        window.alert('Espero que goste do site :) lol');
+        function clicar() {
+            window.alert('Botão clicado, infelizmente não funcionam pois estão por decoração');
+        }
     </script>
 </body>
 </html>
